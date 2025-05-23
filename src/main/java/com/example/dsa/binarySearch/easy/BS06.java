@@ -6,6 +6,7 @@ public class BS06 {
 		int x = 45;
 		int floor = ceil(arr, x);
 		System.out.println(floor);
+
 	}
 	
 	public static int ceil(int arr[], int x) {
