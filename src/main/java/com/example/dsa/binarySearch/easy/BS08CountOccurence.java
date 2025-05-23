@@ -1,7 +1,7 @@
 package com.example.dsa.binarySearch.easy;
 
 // Count occurrences of a number in a sorted array with duplicates
-public class BS08 {
+public class BS08CountOccurence {
 	public static void main(String[] args) {
 
 		int arr[] = { 2, 2, 3, 3, 3, 3, 4 };

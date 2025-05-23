@@ -1,7 +1,7 @@
 package com.example.dsa.binarySearch.easy;
 
 // Floor
-public class BS05 {
+public class BS05Floor {
 
 	public static void main(String[] args) {
 		int arr[] = { 10, 20, 30, 40, 50 };

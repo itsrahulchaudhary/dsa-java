@@ -1,10 +1,11 @@
 package com.example.dsa.binarySearch.easy;
-// https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/
-// Duplicate element
-public class BS10 {
+// https://leetcode.com/problems/search-in-rotated-sorted-array/description
+// unique element
+public class BS09RotateArrayI {
+
 	public static void main(String[] args) {
-		int arr[] = { 3, 1, 2, 3, 3, 3, 3 };
-		int target = 3;
+		int arr[] = { 40, 45, 50, 10, 20, 25, 30, 35 };
+		int target = 50;
 		System.out.println(rotatedArray(arr, target));
 	}
 
@@ -15,11 +16,6 @@ public class BS10 {
 			int mid = low + (high - low) / 2;
 			if (arr[mid] == target) {
 				return mid;
-			}
-			if (arr[low] == arr[mid] && arr[mid] == arr[high]) {
-				low = low + 1;
-				high = high - 1;
-				continue;
 			}
 			if (arr[low] <= arr[mid]) {
 				if (arr[low] <= target && arr[mid] >= target) {

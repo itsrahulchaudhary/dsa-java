@@ -1,7 +1,7 @@
 package com.example.dsa.binarySearch.easy;
 
 // https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/
-public class BS07 {
+public class BS07FindFirstLastPosition {
 
 	public static void main(String[] args) {
 		int arr[] = { 2, 8, 8, 8, 8, 8, 11, 13 };

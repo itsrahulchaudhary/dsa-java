@@ -1,7 +1,7 @@
 package com.example.dsa.binarySearch.easy;
 // https://www.geeksforgeeks.org/problems/rotation4723/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=rotation
 // Find out how many times has an array been rotated
-public class BS12 {
+public class BS12FindKRotation {
 
 	public static void main(String[] args) {
 		int[] arr = { 4, 5, 6, 7, 0, 1, 2, 3 };

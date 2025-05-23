@@ -1,7 +1,7 @@
 package com.example.dsa.binarySearch.easy;
 
 // Upper Bound smallest index such that arr[index]>x
-public class BS03 {
+public class BS03UpperBound {
 	public static void main(String[] args) {
 		int arr[] = { 2, 3, 6, 7, 8, 8, 11, 11, 11, 12 };
 		int x = 7;

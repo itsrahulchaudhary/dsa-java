@@ -1,6 +1,6 @@
 package com.example.dsa.binarySearch.easy;
 
-public class BS13 {
+public class BS13SingleElement {
 	public static void main(String[] args) {
 		int arr[] = { 1, 1, 2, 2, 3, 3, 4, 5, 5, 6, 6 };
 		// int singleElementBruteForce = singleElementBruteForce(arr);

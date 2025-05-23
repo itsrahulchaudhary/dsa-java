@@ -2,7 +2,7 @@ package com.example.dsa.binarySearch.easy;
 
 // https://leetcode.com/problems/search-insert-position/
 // lower bound
-public class BS04 {
+public class BS04InsertPosition {
 
 	public static void main(String[] args) {
 		int arr[] = { 1,3,5,6 };

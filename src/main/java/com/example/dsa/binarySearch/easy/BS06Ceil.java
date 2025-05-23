@@ -1,22 +1,22 @@
 package com.example.dsa.binarySearch.easy;
-
-// Lower Bound smallest index such that arr[index]>=x
-public class BS02 {
+// Ceil
+public class BS06Ceil {
 	public static void main(String[] args) {
-		int arr[] = { 1, 2, 3, 3, 5, 8, 8, 10, 10, 11 };
-		int x = 4;
-		System.out.println(lowerBound(arr, x));
+		int arr[] = { 10, 20, 30, 40, 50 };
+		int x = 45;
+		int floor = ceil(arr, x);
+		System.out.println(floor);
 
 	}
-
-	public static int lowerBound(int arr[], int x) {
+	
+	public static int ceil(int arr[], int x) {
 		int low = 0;
 		int high = arr.length - 1;
-		int ans = arr.length;
+		int ans = -1;
 		while (low <= high) {
 			int mid = low + (high - low) / 2;
 			if (arr[mid] >= x) {
-				ans = mid;
+				ans = arr[mid];
 				high = mid - 1;
 			} else {
 				low = mid + 1;
