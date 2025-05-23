@@ -1,0 +1,14 @@
+
+1. Basic of Binary Search
+   eg- 
+      	-> int[] arr = {2, 3, 5, 7, 9}  target = 9  Ans = 4(index)
+      	-> int arr[] = { -1, 0, 3, 5, 9, 12 } target = 5 Ans = 3(index) , target = 6 Ans = -1
+   --------------------------------------------------------------------------------------------------   	
+2. Lower Bound
+   eg- 
+        ->
+3. Upper Bound
+4. Search Insert Position
+5. Floor
+6. Ceil
+7. First and Last Occurence
