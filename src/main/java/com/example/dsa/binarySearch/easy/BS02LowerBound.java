@@ -7,6 +7,7 @@ public class BS02LowerBound {
 		int x = 4;
 		System.out.println(lowerBound(arr, x));
 
+
 	}
 
 	public static int lowerBound(int arr[], int x) {

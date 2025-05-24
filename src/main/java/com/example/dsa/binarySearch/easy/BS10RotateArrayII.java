@@ -8,13 +8,13 @@ public class BS10RotateArrayII {
 		System.out.println(rotatedArray(arr, target));
 	}
 
-	public static int rotatedArray(int arr[], int target) {
+	public static boolean rotatedArray(int arr[], int target) {
 		int low = 0;
 		int high = arr.length - 1;
 		while (low <= high) {
 			int mid = low + (high - low) / 2;
 			if (arr[mid] == target) {
-				return mid;
+				return true;
 			}
 			if (arr[low] == arr[mid] && arr[mid] == arr[high]) {
 				low = low + 1;
@@ -35,7 +35,7 @@ public class BS10RotateArrayII {
 				}
 			}
 		}
-		return -1;
+		return false;
 	}
 
 }

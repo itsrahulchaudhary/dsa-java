@@ -1,6 +1,6 @@
 package com.example.dsa.binarySearch.easy;
 
-// Floor
+// Floor   largest element in the array <= x
 public class BS05Floor {
 
 	public static void main(String[] args) {
