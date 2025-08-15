@@ -1,0 +1,17 @@
+package com.example.dsa.string;
+
+public class S13PalindromeCheck {
+    public static void main(String[] args) {
+        String input = "madam";
+        int i=0;
+        int j=input.length()-1;
+        while (i<j){
+            if(input.charAt(i++) != input.charAt(j--)){
+                System.out.println("Not a palindrome string");
+                System.exit(0);
+               // break;
+            }
+        }
+        System.out.println("Yes it is palindrome string");
+    }
+}

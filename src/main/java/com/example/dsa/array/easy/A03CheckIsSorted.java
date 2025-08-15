@@ -9,7 +9,7 @@ public class A03CheckIsSorted {
 
     public static boolean isSorted(int arr[]){
         for(int i=1; i<arr.length; i++){
-            if(arr[i]<arr[i-1])  // 2<1 - F  //  1<2 - T
+            if(arr[i-1]>arr[i])  // 2<1 - F  //  1<2 - T if(arr[i]<arr[i-1])
                 return false;
         }
         return true;
