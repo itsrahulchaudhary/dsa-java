@@ -29,6 +29,7 @@ public class S15DuplicateChars {
             System.out.println("feature/pojo");
             if(entry.getValue() >1){
                 System.out.println(entry.getKey()+" : "+entry.getValue());
+                System.out.println("feature/pojo----hey");
             }
         }
     }
