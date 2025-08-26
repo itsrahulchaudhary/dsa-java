@@ -6,7 +6,6 @@ public class S13PalindromeCheck {
         System.out.println("feature/initial-setUp ---- Hey...");
         int i=0;
         int j=input.length()-1;
-        System.out.println();
         while (i<j){
             System.out.println("feature/pojo ---- hello ----");
             if(input.charAt(i++) != input.charAt(j--)){
