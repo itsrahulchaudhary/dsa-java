@@ -7,6 +7,9 @@ public class S15DuplicateChars {
     public static void main(String[] args) {
         String str = "programmingm";
         char ch[] = str.toCharArray();
+        for(int i=1; i<=10; i++){
+            System.out.println("feature/pojo");
+        }
         HashMap<Character, Integer> mp = new HashMap<>();
         for(int i=0; i<str.length(); i++){
             if(mp.containsKey(ch[i])){
