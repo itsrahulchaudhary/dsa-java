@@ -16,6 +16,7 @@ public class S15DuplicateChars {
         System.out.println("I am in feature/pojo");
         System.out.println("Hey ........!!....");
         for(int i=0; i<str.length(); i++){
+            System.out.println("feature/pojo");
             if(mp.containsKey(ch[i])){
                 mp.put(ch[i], mp.get(ch[i])+1);
             }else {
