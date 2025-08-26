@@ -8,6 +8,7 @@ public class S13PalindromeCheck {
         int j=input.length()-1;
         while (i<j){
             System.out.println("feature/pojo ---- hello ----");
+            System.out.println("fature/initial-setUp --- Hi ------");
             if(input.charAt(i++) != input.charAt(j--)){
                 System.out.println("Not a palindrome string");
                 System.exit(0);
