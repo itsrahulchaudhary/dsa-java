@@ -10,6 +10,7 @@ public class BS02LowerBound {
 
 	}
 
+
 	public static int lowerBound(int arr[], int x) {
 		int low = 0;
 		int high = arr.length - 1;

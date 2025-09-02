@@ -21,9 +21,9 @@ public class BS13SingleElement {
 			if (arr[mid] != arr[mid - 1] && arr[mid] != arr[mid + 1])
 				return arr[mid];
 			if ((mid % 2 == 1 && arr[mid] == arr[mid - 1]) || (mid % 2 == 0 && arr[mid] == arr[mid + 1])) {
-				low = mid + 1;
+				low = mid + 1; // eliminate the left half
 			} else {
-				high = mid - 1;
+				high = mid - 1;  // eliminate the right half
 			}
 		}
 		return -1;
