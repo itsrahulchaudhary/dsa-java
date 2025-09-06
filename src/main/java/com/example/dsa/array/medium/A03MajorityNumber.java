@@ -12,6 +12,8 @@ public class A03MajorityNumber {
 		System.out.println(majorityNumber);
 		int majorityNumber2 = majorityNumber2(arr);
 		System.out.println(majorityNumber2);
+		int majorityNumber3 = majorityNumber3(arr);
+		System.out.println(majorityNumber3);
 	}
 
 	// Brute force
@@ -46,7 +48,32 @@ public class A03MajorityNumber {
 			}
 
 		}
+		return -1;
+	}
 
+	//optimal
+	public static int majorityNumber3(int arr[]){
+		int count=0;
+		int el=0;
+		int n=arr.length;
+		for(int i=0; i<arr.length; i++){
+			if(count==0){
+				count++;
+				el=arr[i];
+			} else if (el==arr[i]) {
+				count++;
+			}else {
+				count--;
+			}
+		}
+		int ctn=0;
+		for(int i=0; i<arr.length; i++){
+			if(el==arr[i])
+				ctn++;
+		}
+		if(ctn>(n/2)){
+			return el;
+		}
 		return -1;
 	}
 
