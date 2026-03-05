@@ -3,7 +3,7 @@ package com.example.dsa.binarySearch.medium;
 public class BS02NthRoot {
     public static void main(String[] args) {
          int n = 3;
-         int m = 64;
+         int m = 27;
         int i = NthRoot2(m, n);
        // int i = NthRoot(m, n);
         System.out.println(i);
