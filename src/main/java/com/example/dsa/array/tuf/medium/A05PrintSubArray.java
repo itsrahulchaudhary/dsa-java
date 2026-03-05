@@ -1,4 +1,4 @@
-package com.example.dsa.array.medium;
+package com.example.dsa.array.tuf.medium;
 
 public class A05PrintSubArray {
     public static void main(String[] args) {

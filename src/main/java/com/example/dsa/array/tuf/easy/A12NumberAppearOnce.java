@@ -1,4 +1,4 @@
-package com.example.dsa.array.easy;
+package com.example.dsa.array.tuf.easy;
 
 import java.util.HashMap;
 

@@ -1,4 +1,4 @@
-package com.example.dsa.array.medium;
+package com.example.dsa.array.tuf.medium;
 
 public class A02Sort012 {
 	public static void main(String[] args) {

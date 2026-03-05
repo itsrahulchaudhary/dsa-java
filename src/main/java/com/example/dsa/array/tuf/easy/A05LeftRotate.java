@@ -1,4 +1,4 @@
-package com.example.dsa.array.easy;
+package com.example.dsa.array.tuf.easy;
 
 public class A05LeftRotate {
     public static void main(String[] args) {

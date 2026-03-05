@@ -1,4 +1,4 @@
-package com.example.dsa.array.medium;
+package com.example.dsa.array.tuf.medium;
 
 import java.util.HashMap;
 import java.util.Map;
